@@ -28,7 +28,7 @@ estados_unicos1 = sorted(df1['UF'].unique())  # <--- Aqui os estados são ordena
 
 # Inicialização do app Dash
 app = dash.Dash(__name__)
-
+server = app.server
 
 app.title = 'Dashboards de monitoramento Lei Paulo Gustavo e a Política Nacional Aldir Blanc'
 
